@@ -18,4 +18,4 @@ To temporaryily change the PATH variable for the shell to find the version of py
 ```
 PATH=$(pyenv root)/shims:$PATH
 ```
-Necessary to for TOX execution to create venv for different versions of python.
+Necessary for TOX execution to create venv for different versions of python.
